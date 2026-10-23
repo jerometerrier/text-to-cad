@@ -1,0 +1,4 @@
+interface:
+  display_name: "CAD FreeCAD"
+  short_description: "Parametric FreeCAD parts with an editable feature tree"
+  default_prompt: "Use $cad-freecad to build this part as a parametric FreeCAD model with its feature tree."

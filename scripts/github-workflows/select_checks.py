@@ -268,6 +268,7 @@ RULES: tuple[Rule, ...] = (
                                             f"{SKILL_SUITES}/cad/test_documented_project.py"])),
     Rule(("skills/cad/references/snapshot-review.md",), select(cadgen=[f"{CADGEN_SUITE}/test_snapshot_requests.py"])),
     Rule(("skills/dxf/**",), select(skills=[f"{SKILL_SUITES}/dxf/test_documented_commands.py"])),
+    Rule(("skills/cad-freecad/**",), select(skills=[f"{SKILL_SUITES}/cad-freecad"])),
     Rule(("skills/dfam-check/**",), select(skills=[f"{SKILL_SUITES}/dfam-check"])),
     Rule(("skills/dfm/**",), select(skills=[f"{SKILL_SUITES}/dfm"])),
     # Files that must never appear here: the test that refuses one runs when one does.

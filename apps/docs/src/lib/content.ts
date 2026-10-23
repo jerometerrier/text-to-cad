@@ -135,6 +135,12 @@ export const skillGroups = [
       "Creates and edits CAD models from plain-language or image requests, with STEP as the main output along with options to export to STL, 3MF and GLB.",
   },
   {
+    name: "CAD FreeCAD",
+    path: "skills/cad-freecad",
+    summary:
+      "Builds parametric FreeCAD parts with an editable feature tree (parameters, constrained sketches, Pad, Pocket, Fillet), saved as .FCStd with a STEP export.",
+  },
+  {
     name: "step.parts",
     path: "skills/step-parts",
     summary:
